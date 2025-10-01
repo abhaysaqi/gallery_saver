@@ -53,7 +53,7 @@ group 'carnegietechnologies.gallery_saver'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.8.0' // updated Kotlin
+    ext.kotlin_version = '1.9.20' // updated Kotlin
     ext.kotlinCoroutinesVersion = '1.7.3' // latest stable
     repositories {
         google()
@@ -79,7 +79,7 @@ apply plugin: 'kotlin-android'
 android {
     compileSdk = 35 // latest stable
 
-    namespace "dev.flutter.plugins.gallerysaver" // new required namespace
+    namespace "carnegietechnologies.gallery_saver" // new required namespace
 
     defaultConfig {
         minSdk = 21
